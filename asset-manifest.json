@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//Auxtine.github/e-commerce/static/css/main.23824149.css",
+    "main.js": "//Auxtine.github/e-commerce/static/js/main.1ad1d4f5.js",
+    "index.html": "//Auxtine.github/e-commerce/index.html",
+    "main.23824149.css.map": "//Auxtine.github/e-commerce/static/css/main.23824149.css.map",
+    "main.1ad1d4f5.js.map": "//Auxtine.github/e-commerce/static/js/main.1ad1d4f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23824149.css",
+    "static/js/main.1ad1d4f5.js"
+  ]
+}
