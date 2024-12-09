@@ -19,16 +19,36 @@ function Products() {
   const [items, setItems] = useState([]);
   const [sortOrder, setSortOrder] = useState("az");
 
+  // useEffect(() => {
+  //   setLoading(true);
+  //   (param?.categoryId
+  //     ? getProductsByCategory(param.categoryId)
+  //     : getAllproducts()
+  //   ).then((res) => {
+  //     setItems(res.products);
+  //     setLoading(false);
+  //   });
+  // }, [param]);
+
   useEffect(() => {
     setLoading(true);
-    (param?.categoryId
-      ? getProductsByCategory(param.categoryId)
-      : getAllproducts()
-    ).then((res) => {
-      setItems(res.products);
-      setLoading(false);
-    });
+
+    const fetchData = async () => {
+      try {
+        const response = param.categoryId
+        ?await getProductsByCategory(param.categoryId)
+        : await getAllproducts();
+        setItems(response.products);
+      } catch (error) {
+        console.error ("Error fetching data:", error);
+      } finally {
+        setLoading (false);
+      }
+    };
+    fetchData();
   }, [param]);
+
+
 
   const getSortedItems = () => {
     const sortedItems = [...items];
