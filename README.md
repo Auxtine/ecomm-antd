@@ -10,4 +10,4 @@ Key features include:
 This project demonstrates the integration of a UI library with external APIs to create a functional and interactive user experience.  
 
 ## Live Demo  
-Check out the deployed project: [React E-Commerce Website](https://ecomm-antd-vercel.app)
+Check out the deployed project: [React E-Commerce Website](https://ecomm-antd.vercel.app)
