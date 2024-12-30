@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Auxtine.github.io/e-commerce",
-  "name": "e-com-with-react-n-antd",
+  "homepage": ".",
+  "name": "ecomm-antd",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

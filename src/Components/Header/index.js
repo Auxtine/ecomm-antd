@@ -82,7 +82,7 @@ function AppHeader() {
           },
         ]}
       />
-      <Typography.Title>Nexos Stores</Typography.Title>
+      <Typography.Title>Hezlar Stores</Typography.Title>
       <AppCart />
     </div>
   );
