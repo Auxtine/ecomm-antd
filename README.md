@@ -11,3 +11,6 @@ This project demonstrates the integration of a UI library with external APIs to 
 
 ## Live Demo  
 Check out the deployed project: [React E-Commerce Website](https://ecomm-antd.vercel.app)
+
+<!-- npm run build
+npm start -->
